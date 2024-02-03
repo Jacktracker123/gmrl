@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Caprasimo&family=Dancing+Script:wght@600;700&family=EB+Garamond:wght@600&family=Lemon&family=Mukta:wght@300&family=Oswald:wght@300&family=Raleway:wght@100&family=Salsa&family=Shadows+Into+Light&display=swap');
+html{
+    overflow-x: hidden;
+}
+
+
+.introduction-section{
+    background-color: whitesmoke;
+}
+
+
+.intro-heading{
+font-family: 'Oswald', sans-serif;
+font-size: 56px;
+}
+
+.intro-p{
+    font-family: sans-serif;
+    color: grey;
+    line-height: 30px;
+}
+
+.intro-btn{
+    background-color: rgb(17, 17, 152);
+    border: none;
+}
+.intro-btn:hover{
+    background-color:#85ba32;
+}
+.intro-caption{
+    padding: 250px 0px 0px 120px;
+}
+  .nav-link{
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+  }
+  .nav-link:hover{
+    background-color: rgb(17, 17, 152);
+    border-radius: 5px;
+    color: white;
+  }
+
+  
+
+  
+  .carousel-item {
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+  }
+  
+  .carousel-item.active {
+    opacity: 1;
+  }
+  
+  .carousel-fade {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .carousel-fade.active {
+    opacity: 1;
+  }
+  
+  .carousel-fade .carousel-item {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .carousel-fade .carousel-item.active,
+  .carousel-fade .carousel-item-start {
+    opacity: 1;
+  }
+
+  .navigation-bar{
+    position: absolute;
+    top: 0px;
+    left:120px;
+    transition: top 5s linear 3s;
+  }
+
+  .navigation-bar.hidden {
+    top: -40px;
+    display: none;
+  }
+
+  .navigation-bar-1{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .95);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.25);
+    transition: top 5s linear 3s;
+    z-index: 1050;
+  }
+
+  .navigation-bar-1.hidden {
+    top: -40px;
+    display: none;
+  }
+
+
+  .scroll {
+    background-color: #85ba32;
+}
+
+
+marquee .marq {
+    color: black;
+    font-size: 16px;
+}
+
+.scroll-h{
+    font-weight: bolder;
+}
+
+.scroll-left{
+    background-color: rgba(119,167,45,1);
+}
+.welcome-h2,.dept-head{
+font-family: 'Oswald', sans-serif;
+font-size: 44px;
+}
+.welcome-caption{
+    font-weight: bolder;
+    color: rgb(107, 107, 107);
+}
+.welcme-p{
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.welcme-p a{
+    text-decoration: none;
+}
+.welcome-bann{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+.b{
+    border-right: 1px solid #666666;
+}
+
+.card{
+    width: 100%;
+  }
+  
+  .card-name{
+    gap: 20px;
+    /* border-top: 1px solid grey; */
+  }
+  
+    .card-name img{
+      border-radius: 60px;
+    }
+  
+    .review-container {
+      padding: 40px 0;
+    }
+    
+    .slide-container-1 {
+      margin: 0 30px;
+      overflow: hidden;
+    }
+    
+    .slide-container-2 {
+      margin: 0 30px;
+      overflow: hidden;
+    }
+    
+    .swiper-pagination-bullet {
+      background-color: rgb(10, 3, 63);
+      width: 15px;
+      height: 15px;
+      text-align: center;
+    }
+
+    .dept-section{
+        background-color: whitesmoke;
+    }
+
+    
+.swipe-li{
+    padding: 20px 50px 20px 50px;
+  }
+  
+.swipe-li:hover{
+    border: 2px solid blue;
+    color: rgb(31, 3, 76);
+    font-weight: bolder;
+    font-size: 14px;
+
+  }
